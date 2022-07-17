@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Daniel Personal Website</title>
+
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+    <header class="header">
+        <a href="#" class="logo">Dan<span>iel</span></a>
+        <a href="#" class="menu fas fa-bars"></a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="#about">about me</a>
+            <a href="#testimonial">Testimonial</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reference">Reference</a>
+            <a href="#btn">Documents</a>
+            <a href="#contact">contact </a>
+        </nav>
+    </header>
+<!-- END OF HEADER SECTION -->
+
+
+<!-- HOME SECTION -->
+    <section class="home" id="home">
+        <h1>Hi, I'm <span>Daniel</span> Tawiah</h1>
+        <p>I am a Frontend Developer</p>
+        <a href="./img/doc.pdf" download class="btn" id="btn"><i class="uil uil-download-alt"></i>Download
+          CV</a>
+    </section>
+<!-- END OF HOME SECTION -->
+
+<!-- ABOUT SECTION -->
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/image-1.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis at quasi quam tempore similique sed earum. Sunt
+              explicabo commodi, asperiores tempora totam, eligendi quis aliquid
+              deserunt earum neque dicta nihil a placeat, blanditiis sit omnis
+              tempore nesciunt voluptatum vitae et at dolorem. Quidem fuga
+              dolore aspernatur omnis error pariatur at.
+            </p>
+
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </div>
+              <div class="tab-links" onclick="opentab('experience')">
+                Experience
+              </div>
+              <div class="tab-links" onclick="opentab('education')">
+                Education
+              </div>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Desiging Web App</li>
+                <li><span>Web Development</span><br />Web App Interface</li>
+                <li>
+                  <span>Mobile App Development</span><br />Building Andriod apps
+                  / IOS App
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />UI/UX Design Training at ET
+                  Institute.
+                </li>
+                <li><span>2019 - 2021</span><br />Team Lead at StarApp LLC.</li>
+                <li>
+                  <span>2017 - 2019</span><br />UI/UX Design Executive at Coin
+                  Digital Ltd.
+                </li>
+                <li>
+                  <span>2016 - 2017</span><br />Internship at ekart eCommerce.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2016</span><br />UI/UX Design Training at ET Institute.
+                </li>
+                <li><span>2016</span><br />MBA from Bangalore.</li>
+                <li><span>2014</span><br />MBA from Bangalore.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+<!-- TESTIMONIAL SECTION -->
+<section id="testimonial" class="testimonial">
+<h2 class="heading">What People Say About me</h2>
+<div class="box-container">
+    <div class="box">
+      <div class="image">
+        <img src="img/person_1.jpg">
+    </div>
+        <div class="info">
+            <h3>melissa howards</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis magnam sed numquam!</p>
+        </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="img/image-1.jpeg">
+    </div>
+        <div class="info">
+            <h3>melissa howards</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis magnam sed numquam!</p>
+        </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="img/image-6.jpeg">
+    </div>
+        <div class="info">
+            <h3>melissa howards</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis magnam sed numquam!</p>
+        </div>
+    </div>
+   
+  
+</div>
+
+</section>
+
+<!-- END OF TESTIMONIAL SECTION -->
+
+
+
+
+
+<!-- GALLERY SECTION -->
+<section id="gallery" class="galleries">
+<h2 class="heading">My Gallery</h2>
+<div class="box-container">
+    <div class="box">
+        <div class="image">
+            <img src="img/image-2.jpeg">
+            <div class="overlay">
+                <h3>Image 1</h3>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="img/image-3.jpeg">
+            <div class="overlay">
+                <h3>Image 2</h3>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="img/image-4.jpeg">
+            <div class="overlay">
+                <h3>Image 3</h3>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="img/image-5.jpeg">
+            <div class="overlay">
+                <h3>Image 4</h3>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="img/image-6.jpeg">
+            <div class="overlay">
+                <h3>Image 5</h3>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="img/image-1.jpeg">
+            <div class="overlay">
+                <h3>Image 6</h3>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- END OF GALLERY SECTION -->
+
+
+<!-- REFRENCE SECTION -->
+
+<section class="reference" id="reference">
+    <h1>MY REFERENCE</h1>
+<div class="ref-container">
+     <div class="ref-info">
+        <h3>FRANCIS MARK AMOS</h3>
+     <h4>WEB DEVELOPER</h4>
+     <P>+233 541742099</P>
+     <p>TAKORADI - GHANA</p>
+     </div>
+     <div class="ref-info">
+        <h3>PHILILP MENSON</h3>
+     <h4>GRAPHIC DESIGNER</h4>
+     <P>+233 541742099</P>
+     <p>TAKORADI - GHANA</p>
+     </div>
+     <div class="ref-info">
+        <h3>BEATRICE YOUNG</h3>
+     <h4>APP DEVELOPER</h4>
+     <P>+233 541742099</P>
+     <p>TAKORADI - GHANA</p>
+     </div>
+</div>
+</section>
+
+
+
+
+<!-- CONTACT SECTION -->
+
+<section id="contact" class="contact">
+<h2 class="heading">contact Me</h2>
+<div class="box-container">
+    <div class="box">
+      <div class="form-group">
+          <ion-icon name="location-outline"></ion-icon>
+          <span>street name, city </span>
+      </div>
+      <div class="form-group">
+          <ion-icon name="call-outline"></ion-icon>
+          <span>+233 5417 42099 | +233 540 9977 57 </span>
+      </div>
+
+      <div class="form-group">
+          <ion-icon name="mail-outline"></ion-icon>
+          <span class="em">fmamos@nsbt.edu.gh </span>
+      </div>
+    </div>
+
+    <div class="box">
+         <input type="text" placeholder="name">
+         <input type="text" placeholder="phone">
+         <input type="text" placeholder="email">
+         <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+         <button type="submit">submit</button>
+         <button type="reset">reset</button>
+    </div>
+</div>
+</section>
+
+<!-- END OF CONTACT SECTION -->
+
+<!-- FOOTER SECTION -->
+<section class="footer" id="footer">
+<div class="socials">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+</div>
+    <div class="copyright">
+        <p>designed by Daniel Tawiah</p>
+    </div>
+</section>
+<!-- END OF FOOTER SECTION -->
+
+  <!-- ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
